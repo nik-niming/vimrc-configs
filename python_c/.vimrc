@@ -70,7 +70,7 @@ filetype plugin indent on
 "=====================================================
 syntax enable                               " syntax highlight
 
-set mouse=a                                 " active mouse                     
+set mouse=c                                 " active mouse in command mode                    
 
 set t_Co=256                                " set 256 colors
 colorscheme wombat256mod                    " set color scheme
