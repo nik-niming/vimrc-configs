@@ -102,7 +102,7 @@ set clipboard=unnamed                       " use system clipboard
 
 
 "split navigations
-nnoremap <C-w> <C-w><C-w>                   " use Ctrl-w to switch pane in NERDTREE 
+nnoremap <tab> <C-w><C-w>                   " use Ctrl-w to switch pane in NERDTREE 
 nnoremap <C-x> :close<CR>                   " use Ctrl-x to close the current pane in NERDTREE 
 
 "=====================================================
@@ -131,16 +131,16 @@ let g:airline_powerline_fonts=1
 "=====================================================
 "" TagBar settings
 "=====================================================
-let g:tagbar_autofocus=0
-let g:tagbar_width=42
-autocmd BufEnter *.py :call tagbar#autoopen(0)
-autocmd BufWinLeave *.py :TagbarClose
+"let g:tagbar_autofocus=0
+"let g:tagbar_width=30
+"autocmd BufEnter *.py :call tagbar#autoopen(0)
+"autocmd BufWinLeave *.py :TagbarClose
 
 "=====================================================
 "" NERDTree settings
 "=====================================================
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '__pycache__$']     " Ignore files in NERDTree
-let NERDTreeWinSize=40
+let NERDTreeWinSize=35
 autocmd VimEnter * if !argc() | NERDTree | endif  " Load NERDTree only if vim is run without arguments
 nmap " :NERDTreeToggle<CR>
 
