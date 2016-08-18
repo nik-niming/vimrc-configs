@@ -102,10 +102,8 @@ set clipboard=unnamed                       " use system clipboard
 
 
 "split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+nnoremap <C-w> <C-w><C-w>                   " use Ctrl-w to switch pane in NERDTREE 
+nnoremap <C-x> :close<CR>                   " use Ctrl-x to close the current pane in NERDTREE 
 
 "=====================================================
 "" Tabs / Buffers settings
