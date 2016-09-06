@@ -10,3 +10,5 @@ $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 :PluginInstall
 ```
+
+![img](https://github.com/nik-niming/vimrc-configs/blob/master/images/01.png)
